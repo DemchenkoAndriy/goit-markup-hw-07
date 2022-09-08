@@ -473,12 +473,6 @@ img {
 .footer_address-postal:focus, .footer_address-postal:hover {
   color: #2196f3;
 }
-.footer_address_contact-item {
-  margin-bottom: 9px;
-}
-.footer_address_contact-item:last-child {
-  margin-bottom: 0px;
-}
 .footer_contact-link {
   font-size: 14px;
   line-height: 1.71;
@@ -489,6 +483,12 @@ img {
 }
 .footer_contact-link:focus, .footer_contact-link:hover {
   color: #2196f3;
+}
+.footer_contact-item {
+  margin-bottom: 9px;
+}
+.footer_contact-item:last-child {
+  margin-bottom: 0px;
 }
 
 .subscription {

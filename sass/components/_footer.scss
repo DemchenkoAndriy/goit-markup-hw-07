@@ -58,12 +58,7 @@ background-color: $background-footer;
 }
 
 
-&_contact-item {
-    margin-bottom: 9px;
-    &:last-child {
-            margin-bottom: 0px;
-        }
-}
+
 
 
 }
@@ -82,6 +77,14 @@ background-color: $background-footer;
 
     }
 
+}
+
+&_contact-item {
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
 }
 
    }
