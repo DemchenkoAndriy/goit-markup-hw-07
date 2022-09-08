@@ -1,0 +1,25 @@
+
+.logo {
+   
+    
+    
+
+
+    &_header{
+        @extend %logo;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    }
+&_footer{
+    @extend %logo;
+color: $title-text-color2;
+    margin-bottom: 20px;
+    display: block;
+}
+&_span {
+    color: $accent-color;
+}
+}
+
+
+
