@@ -1,33 +1,36 @@
-.hero_section {
-    background-color: var($background-footer);
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    /*  */
-    max-width: 1600px;
-    max-height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: linear-gradient(to right,
-            $background-img,
-            $background-img),
-        url(..//images/background-img.jpg);
-}
 
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+.hero{
+&_section {
+        background-color: var($background-footer);
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        /*  */
+        max-width: 1600px;
+        max-height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: linear-gradient(to right,
+                $background-img,
+                $background-img),
+            url(..//images/background-img.jpg);
+    }
 
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $title-text-color2;
+    &_title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
 
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $title-text-color2;
+
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
 }

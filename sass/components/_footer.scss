@@ -5,7 +5,9 @@ background-color: $background-footer;
     padding-bottom: 60px;
 
 
-
+&_social {
+        margin-right: auto;
+    }
    &_section {
         @extend %section;
 
